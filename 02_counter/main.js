@@ -8,18 +8,16 @@
 // //getElements 's' 여러개 꺼낼거임
 // const pulsButton = document.getElementsByTagName("button")[0];
 const resultH1 = document.getElementById("result");
-const pulsButton = document.getElementsByClassName("plusbtn")[0];
 let count = 0 ;
 
 // pulsButton.addEventListener("click", () => {
 //     count ++;
 //     resultH1.innerHTML = count;
 // });
-pulsButton.onclick = () => {
+function plus(){
     count ++;
     resultH1.innerHTML = count;
-};
-
+}
 // (함수정의)();
 // (function (){
 
