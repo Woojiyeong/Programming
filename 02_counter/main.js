@@ -14,10 +14,11 @@ let count = 0 ;
 //     count ++;
 //     resultH1.innerHTML = count;
 // });
-function plus(){
-    count ++;
+function plus(number=1){
+    count += number;
     resultH1.innerHTML = count;
 }
+
 // (함수정의)();
 // (function (){
 
