@@ -8,13 +8,14 @@
 // //getElements 's' 여러개 꺼낼거임
 // const pulsButton = document.getElementsByTagName("button")[0];
 const resultH1 = document.getElementById("result");
-let count = 0 ;
+let count = 100;
 
 // pulsButton.addEventListener("click", () => {
 //     count ++;
 //     resultH1.innerHTML = count;
 // });
-function plus(number=1){
+resultH1.innerHTML = count;
+function plus(number = 1) {
     count += number;
     resultH1.innerHTML = count;
 }
