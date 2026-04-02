@@ -6,3 +6,8 @@ vanilla HTML, JavaScript
 ```shell
 npm create vite@latest .
 ```
+
+### CounterAPP 😚
+- useState()
+- onClick{() => set함수((state변수) => state변수 +1)}
+- onClick{함수이름}
