@@ -30,12 +30,18 @@ function TodoListApp() {
       )
     ]);
   }
-
+function toggleTodo(id){
+  setTodos((todos) =>
+    todos.map((todo) => 
+      todo.id === id ? {...todo, isCompleted: !todo.isCompleted} : todo
+    )
+  )
+}
   return (
     <div className="todo">
       <TodoHeader />
       <TodoAdder addTodo={addTodo} />
-      <TodoList todos={todos}/>
+      <TodoList todos={todos} toggleTodo={toggleTodo}/>
     </div>
   );
 }
