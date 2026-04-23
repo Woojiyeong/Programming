@@ -24,6 +24,9 @@
     flex: 1px; /*flex 공간의 나머지 여백 만큼 늘리자 */
 }
 
+.todo__input--edit{
+    flex-grow: 1;
+}
 .todo__button {
     padding: 10px;
     border: none;
