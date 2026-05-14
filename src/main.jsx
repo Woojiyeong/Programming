@@ -1,12 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './reset.css'
-// import App from './App.jsx'
-// import CounterApp from './CounterApp.jsx'
 import TodoListApp from './TodoListApp.jsx'
+import HomeApp from './HomeApp.jsx'
+// import TodoListApp from './TodoListApp.jsx'
+// import HomeApp from './HomeApp.jsx'
+import RouterApp from './RouterApp.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <TodoListApp />
+    <RouterApp />
   </StrictMode>,
 )
